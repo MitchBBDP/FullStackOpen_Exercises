@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant User as User
     participant Browser as Browser
@@ -15,3 +16,4 @@ sequenceDiagram
     Browser->>+Server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     Server-->>-Browser: data.json
     Browser-->>-User: Display notes page
+```
